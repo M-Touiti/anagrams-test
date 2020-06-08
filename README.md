@@ -42,19 +42,18 @@ java -jar target/anagrams-test-0.0.1-SNAPSHOT-jar-with-dependencies.jar "src/mai
 ```
 Example:
 
-The content of the test file "src/main/resources/sample.txt":
-act
-cat
-tree
-race
-care
-acre
+The content of the test file "src/main/resources/sample.txt":  
+act  
+cat  
+tree  
+race  
+care  
+acre  
 bee
 
 ```bash
 java -jar target/anagrams-test-0.0.1-SNAPSHOT-jar-with-dependencies.jar "src/main/resources/sample.txt"
 
 race acre care
-bee ebe
 act cat
 ```
